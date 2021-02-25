@@ -1,0 +1,33 @@
+
+
+.App{
+background-color:#000000; 
+height: 100%;
+width: 100%;
+}
+
+h1,p{
+color:white;
+
+}
+
+.circle{
+  background-color: blueviolet;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-top:50px;
+
+}
+.Icontainer{
+
+  height:70vh;
+  width:80%;
+  background-color:grey;
+  border-radius: 20px;
+  z-index: 1;
+  background: rgba(255,255,255,0.4);
+  backdrop-filter: blur(5px);
+  
+
+}
