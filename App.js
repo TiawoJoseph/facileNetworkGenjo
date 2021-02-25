@@ -8,8 +8,13 @@ import Cards from './cards';
 function App() {
   return (
     <div className="App">
+
+    <div className="containerNavoutside">
+    <div className="containerNav">
      <img src={logo}/> 
-     
+     <button>Logout</button>
+     </div>
+     </div>
      <h1>Welcome!! </h1>
 
      <Cards />
